@@ -1,10 +1,10 @@
 
-var input = document.getElementById("resp");
-input.addEventListener("keyup",function(event) {
-    if (event.keyCode === 13) {
-     event.preventDefault();
- document.getElementById("btn").click()
- ;}});
+// var input = document.getElementById("resp");
+// input.addEventListener("keyup",function(event) {
+//     if (event.keyCode === 13) {
+//      event.preventDefault();
+//  document.getElementById("btn").click()
+//  ;}});
 
 
 
@@ -25,8 +25,8 @@ axios.get(`https://yesno.wtf/api`)
         
     var resp = document.getElementById("resp")
     var text = resp.value
-    typeof(text)
-    typeof(an)
+    // typeof(text)
+    // typeof(an)
 // console.log(text)
 
         if(an==text){
