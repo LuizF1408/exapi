@@ -1,10 +1,10 @@
 
-// var input = document.getElementById("resp");
-// input.addEventListener("keyup",function(event) {
-//     if (event.keyCode === 13) {
-//      event.preventDefault();
-//  document.getElementById("btn").click()
-//  ;}});
+var input = document.getElementById("resp");
+input.addEventListener("keyup",function(event) {
+    if (event.keyCode === 13) {
+     
+ document.getElementById("btn").click()
+ ;}});
 
 
 

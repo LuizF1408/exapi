@@ -1,5 +1,9 @@
-const { default: Axios } = require("axios");
-const { link } = require("fs");
+var input = document.getElementById("input");
+input.addEventListener("keyup",function(event) {
+    if (event.keyCode === 13) {
+     
+ document.getElementById("btn").click()
+ ;}});
 
 function pegaDados() {
     var n = document.getElementById("input")
